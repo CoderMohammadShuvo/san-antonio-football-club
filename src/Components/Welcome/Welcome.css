@@ -1,0 +1,76 @@
+.welcome-div {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 20px 0;
+}
+
+.slogan-div {
+    margin: 30px;
+}
+
+.slogan-div h1 {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.football {
+    color: #d9212a
+}
+
+.learn-button {
+    background-color: #d9212a;
+    color: #fff;
+    font-weight: 600;
+    margin: 20px 0;
+}
+
+.learn-button:hover {
+    background-color: #000;
+    color: #d9212a;
+}
+
+.logo-div img {
+    width: 100%;
+}
+
+@media (max-width: 576px) {
+
+    .slogan-div,
+    .logo-div {
+        width: 100%;
+        margin: 20px auto;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 991.98px) {
+
+    .slogan-div,
+    .logo-div {
+        width: 90%;
+        margin: 20px auto;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1500px) {
+    .welcome-div {
+        grid-template-columns: 1fr 2fr;
+        align-items: center;
+
+    }
+
+    .slogan-div {
+        width: 60%;
+        margin: 20px auto;
+        text-align: left;
+    }
+
+    .slogan-div h1 {
+        font-size: 60px;
+    }
+
+    .logo-div {
+        width: 80%;
+        margin: 20px auto;
+    }
+}
+

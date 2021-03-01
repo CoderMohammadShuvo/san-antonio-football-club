@@ -1,0 +1,76 @@
+.single-player-div {
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px gray;
+    margin: 10px auto;
+    padding: 20px;
+}
+
+.player-img {
+    width: 150px;
+    border-radius: 50%;
+    margin: 15px;
+}
+
+.player-name {
+    font-size: 22px;
+    font-weight: 600;
+    color: #d9212a
+}
+
+.player-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* gap: 10px; */
+    text-align: left;
+}
+
+.professional-info,
+.personal-info {
+    line-height: 15px;
+}
+
+.professional-info {
+    padding-left: 15%;
+    border-left: 2px solid darkgray
+}
+
+.add-button {
+    background-color: #d9212a;
+    color: #fff;
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+.add-button:hover {
+    background-color: #000;
+    color: #d9212a;
+}
+
+
+@media (max-width: 576px) {
+    .single-player-div {
+        width: 95%;
+
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .single-player-div {
+        width: 85%;
+
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .single-player-div {
+        width: 100%;
+
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1500px) {
+    .single-player-div {
+        width: 100%;
+
+    }
+}
