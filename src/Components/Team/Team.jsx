@@ -4,13 +4,11 @@ import { faFutbol } from '@fortawesome/free-solid-svg-icons';
 import "./Team.css";
 
 const Team = (props) => {
-  console.log(props.teamMembers);
   let team = props.teamMembers;
   let fee = 0;
   for (let i = 0; i < team.length; i++) {
     fee += Number(team[i].fee);
   }
-  console.log(fee);
 
   return (
     <div className="team-div">
