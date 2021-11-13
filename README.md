@@ -45,4 +45,4 @@ To Visit App:
 
 ## License
 
-© [Tasnuva Rahman](https://github.com/tasnuvatina)
+© [Mohammad Shuvo](https://github.com/CoderMohammadShuvo)
